@@ -1,0 +1,39 @@
+{
+  "particles": {
+    "number": {
+      "value": 100
+    },
+    "color": {
+      "value": "random"
+    },
+    "shape": {
+      "type": "circle"
+    },
+    "opacity": {
+      "value": 1,
+      "random": false
+    },
+    "size": {
+      "value": 2,
+      "random": true
+    },
+    "move": {
+      "speed": 2
+    },
+    "line_linked": {
+      "enable": false
+    }
+  },
+  "interactivity": {
+    "events": {
+      "onHover": {
+        "enable": true,
+        "mode": "connect"
+      },
+      "onClick": {
+        "enable": true,
+        "mode": "push"
+      }
+    }
+  }
+}
